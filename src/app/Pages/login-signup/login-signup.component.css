@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.heading{
+    background: linear-gradient(135deg, #ff4500, #0b0b0b);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: white;
+}
+
+.loginisignup-container{
+    max-width: 500px;
+    margin: 30px auto 10px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.1);
+}
+.loginisignup-container h2{
+    color: #ff4500;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: fantasy;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.form-wrap{
+    margin-bottom: 20px;
+}
+.form-wrap input{
+    outline: none;
+    width: 100%;
+    padding: 15px 0 10px 5px;
+    border-radius: 6px;
+    border: 1px solid #ff4500;
+    background-color: white;
+}
+button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    background: linear-gradient(135deg, #ff4500, #0b0b0b);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background: linear-gradient(135deg,#0b0b0b, #ff4500);
+}
+
+p{
+    margin-top: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: #000;
+}
+
+.highlight{
+    text-decoration: underline;
+}
+.highlight:hover{
+    text-decoration: underline;
+    color: #ff4500;
+}
